@@ -1,5 +1,15 @@
+var altura = 0
+var largura = 0
 
-var altura = window.innerHeight
-var largura = window.innerWidth
+    function ajustaTamanhoPalco(){
+        altura = window.innerHeight
+        largura = window.innerWidth
+        console.log(altura, largura)
+    }
 
-console.log(altura, largura)
+ajustaTamanhoPalco()
+
+var posicaoX = Math.random() * largura
+var posicaoY = Math.random() * altura
+
+console.log(posicaoX, posicaoY)
